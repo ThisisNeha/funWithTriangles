@@ -1,0 +1,99 @@
+@import url("https://fonts.googleapis.com/css2?family=Alice&family=Carter+One&display=swap");
+
+body {
+  margin: 0;
+  background-color: rgb(196, 196, 255);
+  font-size: 1.2rem;
+  font-family: "Montserrat", sans-serif;
+  color: rgb(14, 2, 82);
+  text-shadow: 1px 1px rgb(142, 126, 245);
+}
+
+/* navbar */
+.navbar {
+  background-color: rgb(133, 133, 253);
+  padding: 1rem;
+}
+
+ul {
+  margin-block-start: 0;
+}
+a,
+li {
+  color: white;
+  list-style: none;
+  text-decoration: none;
+  display: inline-block;
+  padding: 1rem 0.5rem 0.5rem;
+}
+
+a:hover {
+  text-shadow: 2px 1px rgb(31, 6, 214);
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-weight: 700;
+}
+
+
+h1 {
+  font-family: "Carter One", cursive;
+}
+
+#image1 {
+  position: absolute;
+  left: 2%;
+  top: 25%;
+  filter: blur(10px);
+
+}
+#image2 {
+  position: absolute;
+  right: 2%;
+  top: 25%;
+  filter: blur(10px);
+}
+
+p{
+  padding-bottom: 1rem;
+}
+
+/* label and input */
+label {
+  font-size: 1.3rem;
+}
+
+input {
+  font-size: 1rem;
+  padding: 7px;
+  border-radius: 5px;
+  margin: 10px;
+  width: 20%;
+  border: 2px solid rgb(3, 11, 122);
+}
+
+#btn {
+  border: 2px solid rgb(182, 218, 253);
+  background-color: rgb(2, 20, 100);
+  border-radius: 5px;
+  color: rgb(247, 247, 253);
+  cursor: pointer;
+  font-family: "Alice", serif;
+  font-weight: bold;
+  font-size: 1.2rem;
+  margin: 1rem;
+  padding: 10px 15px;
+}
+
+#btn:hover {
+  box-shadow: 2px 2px rgb(161, 154, 226);
+  text-shadow: 1px 1px rgb(180, 193, 233);
+}
+
+#output {
+  font-size: 1.5rem;
+}
+

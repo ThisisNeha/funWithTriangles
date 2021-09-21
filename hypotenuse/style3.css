@@ -1,0 +1,100 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400&display=swap");
+
+body {
+  margin: 0;
+  background-color: rgb(215, 215, 253);
+  font-weight: bold;
+  font-size: 1.2rem;
+  font-family: "Montserrat", sans-serif;
+  color: rgb(21, 2, 128);
+  text-shadow: 1px 1px rgb(142, 126, 245);
+}
+
+/* navbar */
+.navbar {
+  background-color: rgb(138, 138, 247);
+  padding: 1rem;
+}
+
+ul {
+  margin-block-start: 0;
+}
+
+a,
+li {
+  color: white;
+  list-style: none;
+  text-decoration: none;
+  display: inline-block;
+  padding: 1rem 0.5rem 0.5rem;
+}
+
+a:hover {
+  text-shadow: 2px 1px rgb(31, 6, 214);
+}
+
+/* quiz content */
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-weight: 700;
+}
+
+h1 {
+  text-shadow: 2px 1px rgb(248, 248, 255);
+}
+
+p{
+    border: 2px dotted rgb(3, 3, 129);
+    padding: 1rem;
+    border-radius: 7px;
+}
+
+.question-container {
+  padding: 0.3rem 2rem 2rem 2rem;
+  border: 2px solid rgb(3, 3, 216);
+  border-radius: 0.5rem;
+  margin: 1rem 0;
+}
+
+span{
+    font-size: 1.3rem;
+}
+
+label {
+  font-size: 1.5rem;
+  font-size: 1rem;
+  margin:0.7rem ;
+}
+
+input {
+  font-size: 1.2rem;
+  padding: 7px;
+  border-radius: 5px;
+  margin: 10px;
+  width: 28%;
+  border: 2px solid rgb(3, 11, 122);
+}
+
+#btn {
+  border: 2px solid rgb(204, 227, 250);
+  background-color: rgb(2, 20, 100);
+  border-radius: 10px;
+  color: rgb(247, 247, 253);
+  cursor: pointer;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  font-size: 1.2rem;
+  margin: 1rem;
+  padding: 10px 15px;
+}
+
+#btn:hover {
+  box-shadow: 2px 2px rgb(161, 154, 226);
+  text-shadow: 1px 1px rgb(162, 179, 231);
+}
+
+#output {
+  font-size: 1.5rem;
+}
